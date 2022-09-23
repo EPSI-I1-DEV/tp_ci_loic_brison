@@ -1,11 +1,1 @@
-[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=security_rating)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=sqale_rating)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=code_smells)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=coverage)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=duplicated_lines_density)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=vulnerabilities)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=epsi-i1-dev_tp_ci_loic_brison&metric=bugs)](https://sonarcloud.io/summary/new_code?id=epsi-i1-dev_tp_ci_loic_brison)
+
