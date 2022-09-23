@@ -16,7 +16,3 @@ sonar_analyze:
     image: maven:3.6.3-jdk-11
     script:
     - mvn verify sonar:sonar -Dsonar.qualitygate.wait=true -Dsonar.projectKey=epsi-i1-dev_tp_ci_loic_brison
-    rules:
-        - merge_requests
-        - master
-        - develop
