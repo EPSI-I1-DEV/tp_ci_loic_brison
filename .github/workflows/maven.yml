@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  unit_test:
     services:
       # Label used to access the service container
       postgres:
@@ -33,3 +33,12 @@ jobs:
       run: mvn clean test --file pom.xml
       env:
         DATABASE_URL_TEST: 'postgres://gael:@postgres:5432/qieam'
+        
+  sonar_analyze:
+    runs-on: ubuntu-latest
+    container: maven:3.5.4-jdk-8
+    steps:
+    - uses: actions/checkout@v3
+    - name: Analyze with Sonar
+      run: mvn verify sonar:sonar -Dsonar.projectKey=epsi-i1-dev_tp_ci_loic_brison -Dsonar.qualitygate.wait=true
+      
