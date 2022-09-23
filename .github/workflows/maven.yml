@@ -40,5 +40,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Analyze with Sonar
-      run: mvn verify sonar:sonar -Dsonar.projectKey=EPSI-I1-DEV_tp_ci_loic_brison -Dsonar.qualitygate.wait=true
+      run: mvn verify sonar:sonar  -DskipTests -Dsonar.projectKey=EPSI-I1-DEV_tp_ci_loic_brison -Dsonar.qualitygate.wait=true
       
