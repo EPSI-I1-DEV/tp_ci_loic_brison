@@ -59,4 +59,5 @@ jobs:
     - name: Analyze with Sonar
       run: mvn verify sonar:sonar -Dsonar.projectKey=EPSI-I1-DEV_tp_ci_loic_brison -Dsonar.qualitygate.wait=true
       env:
+        SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
         DATABASE_URL_TEST: 'postgres://gael:@postgres:5432/qieam'
