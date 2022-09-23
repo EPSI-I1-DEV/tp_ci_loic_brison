@@ -10,4 +10,4 @@ unit_test:
 sonar_analyze:
     stage: analyze
     script:
-        - mvn verify sonar:sonar -Dsonar.qualitygate.wait=true
+    - mvn verify sonar:sonar -Dsonar.qualitygate.wait=true
