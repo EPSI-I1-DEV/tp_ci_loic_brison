@@ -25,6 +25,12 @@ unit_test:
         - mvn clean test
     rules:
         - if: '$CI_COMMIT_BRANCH == "main"'
+    artifacts:
+        when: always
+        reports:
+        junit:
+            - target/surefire-reports/TEST-*.xml
+            - target/failsafe-reports/TEST-*.xml
 
 sonar_analyze:
     stage: analyze
