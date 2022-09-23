@@ -1,5 +1,9 @@
 image: maven:3.5.4-jdk-8
 
+stages:
+    - test
+    - analyze
+
 unit_test:
     stage: test
     script:
