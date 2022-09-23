@@ -15,4 +15,4 @@ sonar_analyze:
     stage: analyze
     image: maven:3.6.3-jdk-11
     script:
-    - mvn verify sonar:sonar -Dsonar.qualitygate.wait=true -Dsonar.projectKey=epsi-i1-dev_tp_ci_loic_brison
+    - mvn verify sonar:sonar -Dsonar.projectKey=epsi-i1-dev_tp_ci_loic_brison
