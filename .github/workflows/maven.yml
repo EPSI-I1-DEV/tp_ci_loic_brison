@@ -36,7 +36,7 @@ jobs:
         
   sonar_analyze:
     runs-on: ubuntu-latest
-    container: maven:3.5.4-jdk-8
+    container: maven:3.6.3-jdk-11
     steps:
     - uses: actions/checkout@v3
     - name: Analyze with Sonar
